@@ -35,8 +35,9 @@ public class XSkillsAutoDiscoveryModSystem : ModSystem
 
     private void AutomapBerryBushes()
     {
+        // TODO: Doesnt work
         var berryBlocks = _api.World.Blocks.Where(block =>
-            block.Class == "BlockBerryBush" &&
+            block.Class is "BlockBerryBush" or "HerbariumBerryBush" or "GroundBerryPlant" &&
             block.BlockBehaviors.All(behavior => behavior is not XSkillsBerryBushBehavior) &&
             block.Code.Path.Contains("ripe"));
 
