@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "XSkillsAutoDiscovery\CakeBuild\CakeBuild.csproj", "{FFE1993F-4B2C-44F6-B1AF-244B6DAE4B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSkillsAutoDiscovery", "XSkillsAutoDiscovery\XSkillsAutoDiscovery\XSkillsAutoDiscovery.csproj", "{E116062F-5476-4979-AA2B-BCE2BD52F625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFE1993F-4B2C-44F6-B1AF-244B6DAE4B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE1993F-4B2C-44F6-B1AF-244B6DAE4B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE1993F-4B2C-44F6-B1AF-244B6DAE4B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE1993F-4B2C-44F6-B1AF-244B6DAE4B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E116062F-5476-4979-AA2B-BCE2BD52F625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E116062F-5476-4979-AA2B-BCE2BD52F625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E116062F-5476-4979-AA2B-BCE2BD52F625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E116062F-5476-4979-AA2B-BCE2BD52F625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

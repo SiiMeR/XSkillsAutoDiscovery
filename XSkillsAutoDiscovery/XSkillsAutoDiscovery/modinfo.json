@@ -1,0 +1,14 @@
+{
+    "type": "code",
+    "modid": "xskillsautodiscovery",
+    "name": "XSkillsAutoDiscovery",
+    "authors": [
+        "SiiMeR"
+    ],
+    "description": "Automatically detects various modded blocktypes and adds xskills behaviors to them",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.19.8",
+        "xskills": "0.8.8"
+    }
+}
